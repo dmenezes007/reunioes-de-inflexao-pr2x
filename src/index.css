@@ -2,8 +2,8 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: "Airone Bold Sans Serif", "Airone", ui-sans-serif, system-ui, sans-serif;
-  --font-display: "Airone Bold Sans Serif", "Airone", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Airone", "Airone Bold Sans Serif", "Airone Bold", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Airone", "Airone Bold Sans Serif", "Airone Bold", ui-sans-serif, system-ui, sans-serif;
 
   --color-bg-main: #f5f1e8;
   --color-surface: #fffdf8;

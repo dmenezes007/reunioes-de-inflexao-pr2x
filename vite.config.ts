@@ -5,8 +5,10 @@ import {defineConfig, loadEnv} from 'vite';
 
 export default defineConfig(({mode}) => {
   const env = loadEnv(mode, '.', '');
+  const basePath = env.VITE_BASE && env.VITE_BASE.trim().length > 0 ? env.VITE_BASE : '/';
+
   return {
-    base: mode === 'production' ? '/reunioes-de-inflexao-pr2x/' : '/',
+    base: basePath,
     plugins: [react(), tailwindcss()],
     define: {
       'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),

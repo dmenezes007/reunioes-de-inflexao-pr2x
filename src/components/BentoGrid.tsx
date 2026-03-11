@@ -10,7 +10,7 @@ const cards = [
     colSpan: "col-span-1 md:col-span-2",
     rowSpan: "row-span-1",
     color: "from-[var(--color-accent-2)]/15 to-transparent",
-    content: "Uma reunião de inflexão é um evento decisório de alto impacto, convocado exclusivamente para resolver bloqueios críticos em projetos estratégicos. Não é uma reunião de status, mas um fórum de resolução de problemas onde a inércia é quebrada e o caminho a seguir é definido com clareza e compromisso de todos os stakeholders."
+    content: "Uma reunião de inflexão é um evento decisório de alto impacto, convocado exclusivamente para resolver bloqueios críticos em projetos estratégicos. Não é uma reunião de status, mas um fórum de resolução de problemas no qual a inércia é quebrada e o caminho a seguir é definido com clareza e compromisso de todas as partes interessadas."
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ const cards = [
     colSpan: "col-span-1",
     rowSpan: "row-span-2",
     color: "from-[var(--color-accent-3)]/15 to-transparent",
-    content: "Apenas as pessoas estritamente necessárias para tomar a decisão e executar a solução. \n\n1. O Decisor (Sponsor)\n2. O Dono do Problema (Líder do Projeto)\n3. Os Especialistas (Quem detém o conhecimento técnico)\n4. Os Executores (Quem vai implementar a decisão)\n\nSem espectadores."
+    content: "Apenas as pessoas estritamente necessárias para tomar a decisão e executar a solução. \n\n1. O Decisor (Patrocinador)\n2. O Dono do Problema (Líder do Projeto)\n3. Os Especialistas (Quem detém o conhecimento técnico)\n4. Os Executores (Quem vai implementar a decisão)\n\nSem espectadores."
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const cards = [
     colSpan: "col-span-1 md:col-span-2",
     rowSpan: "row-span-1",
     color: "from-[var(--color-accent-1)]/15 to-transparent",
-    content: "1. Alinhamento do Problema (10 min): Apresentação clara do gargalo.\n2. Análise de Causas (15 min): Discussão focada em fatos e dados.\n3. Geração de Alternativas (20 min): Brainstorming estruturado.\n4. Decisão (10 min): Escolha do caminho pelo Sponsor.\n5. Plano de Ação (5 min): Quem faz o quê, até quando."
+    content: "1. Alinhamento do Problema (10 min): apresentação clara do gargalo.\n2. Análise de Causas (15 min): discussão focada em fatos e dados.\n3. Geração de Alternativas (20 min): ideação estruturada de soluções.\n4. Decisão (10 min): escolha do caminho pelo patrocinador.\n5. Plano de Ação (5 min): quem faz o quê e até quando."
   },
   {
     id: 5,
@@ -46,7 +46,7 @@ const cards = [
     colSpan: "col-span-1",
     rowSpan: "row-span-1",
     color: "from-[var(--color-accent-2)]/15 to-transparent",
-    content: "Behaviour: Qual comportamento está travando o projeto?\nAnalysis: Por que esse comportamento ocorre?\nStrategies: Quais estratégias podem mudar isso?\nIntervention: Qual intervenção aplicaremos agora?\nChange: Como mediremos a mudança?"
+    content: "Comportamento (Behaviour): qual comportamento está travando o projeto?\nAnálise (Analysis): por que esse comportamento ocorre?\nEstratégias (Strategies): quais estratégias podem mudar isso?\nIntervenção (Intervention): qual intervenção aplicaremos agora?\nMudança (Change): como mediremos a mudança?"
   },
   {
     id: 6,
@@ -64,7 +64,7 @@ const cards = [
     colSpan: "col-span-1 md:col-span-2",
     rowSpan: "row-span-1",
     color: "from-[var(--color-accent-3)]/15 to-transparent",
-    content: "• Tempo de resolução do gargalo (Time-to-decision)\n• Adesão à decisão (Compliance rate)\n• Velocidade de retomada do projeto\n• Redução no número de reuniões de acompanhamento subsequentes."
+    content: "• Tempo de resolução do gargalo (tempo até a decisão)\n• Adesão à decisão (taxa de conformidade)\n• Velocidade de retomada do projeto\n• Redução no número de reuniões de acompanhamento subsequentes."
   },
   {
     id: 8,
@@ -73,7 +73,7 @@ const cards = [
     colSpan: "col-span-1 md:col-span-3",
     rowSpan: "row-span-1",
     color: "from-[var(--color-accent-1)]/15 to-transparent",
-    content: "Projeto de migração de ERP travado há 3 meses por divergências entre TI e Finanças sobre a customização de um módulo.\n\nReunião de Inflexão (60 min):\n- Sponsor: CFO\n- Decisão: Adotar padrão de mercado (vanilla), sem customização.\n- Resultado: Projeto destravado, economia de 400h de desenvolvimento."
+    content: "Projeto de migração de ERP travado há 3 meses por divergências entre TI e Finanças sobre a customização de um módulo.\n\nReunião de Inflexão (60 min):\n- Patrocinador: CFO\n- Decisão: adotar padrão de mercado (vanilla), sem customização.\n- Resultado: projeto destravado, com economia de 400 horas de desenvolvimento."
   }
 ];
 

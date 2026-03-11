@@ -18,52 +18,52 @@ type Slide = {
 const slides: Slide[] = [
   {
     id: 1,
-    kicker: 'PR2X • Caderno de Direcao',
-    title: 'Reunioes de Inflexao',
-    body: 'Um metodo para decidir com velocidade, preservar governanca e recolocar projetos estrategicos em rota.',
-    note: 'Inspirado em linguagem editorial de relatorios corporativos.',
+    kicker: 'PR2X • Caderno de Direção',
+    title: 'Reuniões de Inflexão',
+    body: 'Um método para decidir com velocidade, preservar governança e recolocar projetos estratégicos em rota.',
+    note: 'Inspirado em linguagem editorial de relatórios corporativos.',
     chapter: 'Abertura',
   },
   {
     id: 2,
     kicker: 'Problema',
-    title: 'Nao falta visao. Falta decisao no tempo certo.',
-    body: 'Projetos perdem tracao quando o risco cresce mais rapido que a capacidade de decidir.',
-    chapter: 'Diagnostico',
+    title: 'Não falta visão. Falta decisão no tempo certo.',
+    body: 'Projetos perdem tração quando o risco cresce mais rápido que a capacidade de decidir.',
+    chapter: 'Diagnóstico',
   },
   {
     id: 3,
-    kicker: 'Momento Critico',
-    title: 'A inflexao exige foco e autoridade.',
-    body: 'A reuniao nao discute tudo. Resolve um bloqueio central com patrocinio explicito e plano imediato.',
-    chapter: 'Principio',
+    kicker: 'Momento Crítico',
+    title: 'A inflexão exige foco e autoridade.',
+    body: 'A reunião não discute tudo. Resolve um bloqueio central com patrocínio explícito e plano imediato.',
+    chapter: 'Princípio',
   },
   {
     id: 4,
-    kicker: 'Composicao',
-    title: 'Participantes indispensaveis',
+    kicker: 'Composição',
+    title: 'Participantes indispensáveis',
     body: 'Decisor, dono do problema, especialistas e executores. Sem plateia. Sem paralelos. Sem ambiguidade.',
-    chapter: 'Governanca',
+    chapter: 'Governança',
   },
   {
     id: 5,
-    kicker: 'Metodo BASIC',
+    kicker: 'Método BASIC',
     title: 'Behavior. Analysis. Strategies. Intervention. Change.',
-    body: 'A estrutura organiza o debate e transforma percepcoes em decisoes verificaveis.',
+    body: 'A estrutura organiza o debate e transforma percepções em decisões verificáveis.',
     chapter: 'Framework',
   },
   {
     id: 6,
     kicker: 'Ritmo',
-    title: '60 minutos, cinco blocos, uma definicao.',
+    title: '60 minutos, cinco blocos, uma definição.',
     body: 'Alinhar o gargalo, analisar causas, abrir alternativas, decidir e distribuir responsabilidades.',
-    chapter: 'Execucao',
+    chapter: 'Execução',
   },
   {
     id: 7,
     kicker: 'Resultado',
     title: 'Menos reuniao. Mais compromisso. Mais entrega.',
-    body: 'Quando a decisao vira acordo operacional, o projeto volta a gerar valor em ciclo curto.',
+    body: 'Quando a decisão vira acordo operacional, o projeto volta a gerar valor em ciclo curto.',
     chapter: 'Impacto',
   },
   {
@@ -134,7 +134,7 @@ export default function Slideshow({ onComplete }: SlideshowProps) {
 
           <div className="mt-auto flex flex-col md:flex-row md:items-end md:justify-between gap-6">
             <div>
-              <p className="text-[11px] tracking-[0.22em] uppercase text-[var(--color-muted)]">Capitulo</p>
+              <p className="text-[11px] tracking-[0.22em] uppercase text-[var(--color-muted)]">Capítulo</p>
               <p className="font-display text-2xl md:text-4xl text-[var(--color-ink)]">{currentSlide.chapter}</p>
             </div>
 

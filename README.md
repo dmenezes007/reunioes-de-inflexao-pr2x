@@ -1,44 +1,44 @@
-# Reunioes de Inflexao PR2X
+# Reuniões de Inflexão PR2X
 
-Aplicacao React + Vite com narrativa inicial em slideshow e painel editorial interativo da metodologia PR2X.
+Aplicação React + Vite com narrativa inicial em slideshow e painel editorial interativo da metodologia PR2X.
 
 ## Requisitos
 
 - Node.js 20+
 - npm 10+
 
-## Execucao local
+## Execução local
 
-1. Instalar dependencias:
+1. Instalar dependências:
    npm install
 2. Iniciar ambiente de desenvolvimento:
    npm run dev
 
-## Build de producao
+## Build de produção
 
 1. Gerar build:
    npm run build
-2. Previsualizar localmente:
+2. Pré-visualizar localmente:
    npm run preview
 
-## Publicacao no GitHub Pages
+## Publicação no GitHub Pages
 
-O projeto ja esta configurado com base path e scripts de deploy.
+O projeto já está configurado com base path e scripts de deploy.
 
-1. Garantir que o repositorio remoto seja:
+1. Garantir que o repositório remoto seja:
    https://github.com/dmenezes007/reunioes-de-inflexao-pr2x.git
 2. Executar deploy:
    npm run deploy
 
 O script publica a pasta dist na branch gh-pages.
 
-## Publicacao no Vercel
+## Publicação no Vercel
 
-Configuracao recomendada:
+Configuração recomendada:
 
 - Framework Preset: Vite
 - Build Command: npm run build
 - Output Directory: dist
 - Install Command: npm install
 
-Como o app e estatico, nao ha necessidade de funcoes serverless.
+Como o app é estático, não há necessidade de funções serverless.

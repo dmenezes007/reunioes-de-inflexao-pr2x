@@ -181,7 +181,7 @@ export default function Slideshow({ onComplete }: SlideshowProps) {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 flex-1 min-h-0">
             <div className="max-w-3xl">
               <p className="text-[10px] md:text-xs tracking-[0.28em] uppercase text-[var(--color-muted)] mb-6">{currentSlide.kicker}</p>
-              <h1 className="font-display text-4xl md:text-7xl leading-[0.94] text-[var(--color-ink)] mb-6 max-w-4xl">
+              <h1 className="font-display text-4xl md:text-7xl leading-[0.94] text-[var(--color-ink)] mb-6 max-w-4xl uppercase tracking-[0.02em]">
                 {currentSlide.title}
               </h1>
               <p className="text-lg md:text-2xl leading-relaxed text-[var(--color-muted)] max-w-3xl">

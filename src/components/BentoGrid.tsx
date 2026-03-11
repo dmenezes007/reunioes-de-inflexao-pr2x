@@ -110,7 +110,7 @@ export default function BentoGrid() {
                 {card.icon}
               </div>
               <div className="z-10 mt-auto">
-                <h3 className="text-2xl font-semibold mb-2 font-display leading-tight">{card.title}</h3>
+                <h3 className="text-2xl font-semibold mb-2 font-display leading-tight uppercase tracking-[0.02em]">{card.title}</h3>
                 <div className="flex items-center text-sm text-[var(--color-muted)] transition-colors">
                   <span>Explorar</span>
                   <ArrowRight className="w-4 h-4 ml-2 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300" />
@@ -152,7 +152,7 @@ export default function BentoGrid() {
                 {selectedCard.icon}
               </div>
               
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">{selectedCard.title}</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6 uppercase tracking-[0.02em]">{selectedCard.title}</h2>
               
               <div className="text-lg md:text-xl text-[var(--color-muted)] leading-relaxed whitespace-pre-line">
                 {selectedCard.content}

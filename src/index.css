@@ -1,9 +1,9 @@
-@import url('https://fonts.cdnfonts.com/css/new-science');
+@import url('https://fonts.cdnfonts.com/css/airone-bold-sans-serif');
 @import "tailwindcss";
 
 @theme {
-  --font-sans: "New Science", ui-sans-serif, system-ui, sans-serif;
-  --font-display: "New Science", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Airone Bold Sans Serif", "Airone", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Airone Bold Sans Serif", "Airone", ui-sans-serif, system-ui, sans-serif;
 
   --color-bg-main: #f5f1e8;
   --color-surface: #fffdf8;
